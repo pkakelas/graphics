@@ -10,15 +10,15 @@ function init() {
     ball = {
         x: 350 - RADIUS,
         y: 70,
-        v: 0
+        vy: 0
     };
 }
 
 function integrate() {
-    ball.v += G * 15/1000;
-    ball.y += ball.v;
+    ball.vy += G * 15/1000;
+    ball.y += ball.vy;
     if ( ball.y > H - RADIUS ) {
-        ball.v = - ball.v * IMPACT;
+        ball.vy = - ball.vy * IMPACT;
         ball.y = H - RADIUS;
     }
 }
