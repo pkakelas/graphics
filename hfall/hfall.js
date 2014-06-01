@@ -26,10 +26,12 @@ function integrate() {
     if ( ball.x < RADIUS ) {
         ball.vx = - ball.vx * IMPACT;
         ball.x = RADIUS;
+        ball.vy = ball.vy * IMPACT;
     }
     if ( ball.x > W - RADIUS ) {
         ball.vx = - ball.vx * IMPACT;
         ball.x = W - RADIUS;
+        ball.vy = ball.vy * IMPACT;
     }
 }
 
