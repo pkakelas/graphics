@@ -1,1 +1,1 @@
-[Press me](https://pkakelas.com/screensaver.html)
+[Press me](https://pkakelas.com/screensaver)
