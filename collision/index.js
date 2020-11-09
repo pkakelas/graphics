@@ -66,7 +66,6 @@ for (let _ = 0; _ < 10; ++_) {
         30,
         getRandomColor(),
     )
-    console.log(ball)
 
     balls.push(ball)
 }
